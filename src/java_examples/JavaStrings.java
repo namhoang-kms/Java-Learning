@@ -1,4 +1,4 @@
-package src.java;
+package java_examples;
 
 public class JavaStrings {
     public static void main(String[] args) {

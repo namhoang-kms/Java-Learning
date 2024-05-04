@@ -1,4 +1,4 @@
-package thaochi_clair.src.java.thaochi_clair;
+package java_examples.thaochi_clair;
 
 public class leapyear {
     public static void main (String[] args) {

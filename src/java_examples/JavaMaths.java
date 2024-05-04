@@ -1,4 +1,4 @@
-package src.java;
+package java_examples;
 
 public class JavaMaths {
     public static void main(String[] args) {

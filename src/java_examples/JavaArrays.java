@@ -1,4 +1,4 @@
-package src.java;
+package java_examples;
 
 public class JavaArrays {
     public static void main(String[] args) {

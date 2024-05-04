@@ -1,4 +1,4 @@
-package src.java;
+package java_examples;
 
 public class JavaDataTypes {
     public static void main(String[] args) {

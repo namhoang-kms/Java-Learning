@@ -1,4 +1,4 @@
-package thaochi_clair;
+package java_examples.thaochi_clair;
 
 public class oddevennumber {
     public static void main (String[] args) {
