@@ -37,6 +37,7 @@ public class JavaArrays {
     public static void twoDimensionalArray() {
         int[][] myNumbers = {{1, 2, 3, 4}, {5, 6, 7}};
         int x = myNumbers[1][2];
+        // Outputs 7
         System.out.println(x); // Outputs 7
         myNumbers[1][2] = 9;
         System.out.println(myNumbers[1][2]); // Outputs 9
