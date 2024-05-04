@@ -38,9 +38,6 @@ public class JavaArrays {
         int[][] myNumbers = {{1, 2, 3, 4}, {5, 6, 7}};
         int x = myNumbers[1][2];
         System.out.println(x); // Outputs 7
-        // Change an item in the second array
-        // Change 2nd element of 2nd array to 9
-        // change 7 to 9
         myNumbers[1][2] = 9;
         System.out.println(myNumbers[1][2]); // Outputs 9
 
