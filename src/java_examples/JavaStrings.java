@@ -3,7 +3,7 @@ package java_examples;
 public class JavaStrings {
     public static void main(String[] args) {
         String txt1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        System.out.println("The length of the txt string is: " + txt1.length());
+        System.out.println("The length of the txt string is: " + txt1.length()); // Outputs 26
 
         String txt2 = "Hello World";
         System.out.println(txt2.toUpperCase());   // Outputs "HELLO WORLD"

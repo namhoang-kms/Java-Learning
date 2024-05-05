@@ -2,11 +2,11 @@ package java_examples;
 
 public class JavaLoops {
     public static void main(String[] args) {
-        forLoop();
-        forLoop2();
-        nestedForLoop();
-        forEachLoop();
-        whileLoop();
+//        forLoop();
+//        forLoop2();
+//        nestedForLoop();
+//        forEachLoop();
+//        whileLoop();
         doWhileLoop();
     }
 
@@ -49,7 +49,7 @@ public class JavaLoops {
     }
 
     public static void doWhileLoop() {
-        int i = 0;
+        int i = 6;
         do {
             System.out.println(i);
             i++;
