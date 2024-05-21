@@ -18,7 +18,3 @@ public class FresherTestMin {
 }
 
 
-//INPUT:
-//int[] arr = {5, 2, 9, 1, 5, 6};
-//OUTPUT: Print out the largest element in the array.
-//EXPECTED -> 9
