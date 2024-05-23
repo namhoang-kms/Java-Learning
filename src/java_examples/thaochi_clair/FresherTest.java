@@ -37,10 +37,10 @@ public class FresherTest {
                 }
             }
 
-        } System.out.println("max =" + arr[0]);
-        System.out.println("max2 =" + arr[1]);
-        System.out.println("min =" + arr[arr.length -1]);
-        System.out.println("min2 =" + arr[arr.length -2]);
+        } System.out.println("max = " + arr[0]);
+        System.out.println("max2 = " + arr[1]);
+        System.out.println("min = " + arr[arr.length -1]);
+        System.out.println("min2 = " + arr[arr.length -2]);
     }
 }
 
