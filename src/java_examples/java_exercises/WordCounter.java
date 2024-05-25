@@ -3,9 +3,9 @@ package java_examples.java_exercises;
 public class WordCounter {
 
     public static void main(String[] args) {
-        String input = "This is an example of counting words in a string.";
+        String input = "This is an   example of counting words in a string.    ";
         int numberOfWords = countWords(input);
-        System.out.println("Number of words in the string: " + numberOfWords);
+        System.out.println("Number of words in the string: " + input.trim());
     }
 
     // Method to count the number of words in a string
