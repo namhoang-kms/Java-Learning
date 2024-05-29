@@ -11,5 +11,7 @@ public class MainClass {
 
         SecondClass mySecondClass = new SecondClass();
         System.out.println(mySecondClass.x);
+        mySecondClass.x = x;
     }
+
 }
