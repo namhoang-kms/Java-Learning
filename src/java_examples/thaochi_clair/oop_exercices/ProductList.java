@@ -4,16 +4,18 @@ public class ProductList {
     String productName;
     double productPrice;
     int productQuantity;
+    int adjustIncreaseNumber;
+    int adjustDecreaseNumber;
 
     public double getTotalProductPrice() { return
             productPrice*productQuantity;
     }
-    public int quantityIncrease() { return
-            productQuantity + 1;
+    public int quantityIncrease(int adjustIncreaseNumber) { return
+            productQuantity + adjustIncreaseNumber;
 
     }
-    public int quantityDecrease() { return
-            productQuantity - 1;
+    public int quantityDecrease(int adjustDecreaseNumber) { return
+            productQuantity - adjustDecreaseNumber;
 
     }
 
@@ -49,5 +51,14 @@ public class ProductList {
     public void setProductQuantity(int productQuantity) {
         this.productQuantity = productQuantity;
     }
+
+//    public int getAdjustIncreaseNumber() { return adjustIncreaseNumber; }
+//
+//    public void setAdjustIncreaseNumber(int adjustIncreaseNumber) { this.adjustIncreaseNumber = adjustIncreaseNumber;}
+//
+//    public int getAdjustDecreaseNumber() { return adjustDecreaseNumber; }
+//
+//public void setAdjustDecreaseNumber( int adjustDecreaseNumber) { this.adjustDecreaseNumber = adjustDecreaseNumber;}
+//
 }
 
